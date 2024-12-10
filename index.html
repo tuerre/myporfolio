@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aKa Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="faviconsnake.webp" type="image/webp">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body data-theme="light">
+    <div class="mobile-nav">
+        <img class="iconLuffy" src="/logoAK.webp" alt="Logo">
+    <a class="logoText" href="/">Nakaito.</a>
+    <button class="openMenu" id="openMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-[1.2rem] w-[1.2rem]"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+    </button>
+    <a class="github" href="https://github.com/tuerre" target="_blank">Star on GitHub</a>
+    </div>
+
+    <header id="nav-header" class="nav-header">
+        <div class="nav">
+            <div class="nav-firstItems">
+                <div class="nav-logo">
+                    <img class="iconLuffy" src="/logoAK.webp" alt="Logo">
+                    <a class="logoText" href="/">Nakaito.</a>
+                    <button class="closeMenu" id="closeMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4 w-4"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+                    </button>
+                </div>
+                <div class="nav-links">
+                    <ul class="ul-nav">
+                        <li><a href="/">
+                            <svg class="SVGNav" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.71 2.29a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42A1 1 0 0 0 3 13h1v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7h1a1 1 0 0 0 1-1 1 1 0 0 0-.29-.71zM6 20v-9.59l6-6 6 6V20z"></path></svg>
+                            Home</a></li>
+                        <li><a href="#services">
+                            <svg class="SVGNav" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="M20.26 7.8a4.82 4.82 0 0 0-3.93-2.44 3.91 3.91 0 0 0-2.54 1.09 10.58 10.58 0 0 0-1.52 1.71 11 11 0 0 0-1.63-1.72 4.39 4.39 0 0 0-2.88-1.08A5 5 0 0 0 3.7 8 11.49 11.49 0 0 0 2 14a7 7 0 0 0 .18 1.64A4.44 4.44 0 0 0 2.71 17a3.23 3.23 0 0 0 3 1.6c1.25 0 2.19-.56 3.3-2a26.4 26.4 0 0 0 2.21-3.6l.63-1.12c.06-.09.11-.18.16-.27l.15.25 1.79 3A14.77 14.77 0 0 0 16 17.63a3.38 3.38 0 0 0 2.55 1 3 3 0 0 0 2.54-1.23 2.2 2.2 0 0 0 .18-.28 4.1 4.1 0 0 0 .31-.63l.12-.35A6.53 6.53 0 0 0 22 15a9 9 0 0 0 0-1 11.15 11.15 0 0 0-1.74-6.2zm-10.12 3.56c-.64 1-1.57 2.51-2.37 3.61-1 1.37-1.51 1.51-2.07 1.51a1.29 1.29 0 0 1-1.15-.66 3.3 3.3 0 0 1-.39-1.7A9.74 9.74 0 0 1 5.54 9a2.8 2.8 0 0 1 2.19-1.47A3 3 0 0 1 10 8.74a14.07 14.07 0 0 1 1 1.31zm8.42 5.12c-.48 0-.85-.19-1.38-.83A34.87 34.87 0 0 1 14.82 12l-.52-.86c-.36-.61-.71-1.16-1-1.65a2.46 2.46 0 0 1 .17-.27c.94-1.39 1.77-2.17 2.8-2.17a3.12 3.12 0 0 1 2.49 1.66 10.17 10.17 0 0 1 1.37 5.34c-.04 1.31-.34 2.43-1.57 2.43z"></path></svg>
+                        About</a></li>
+                        <li><a href="/">
+                            <svg class="SVGNav" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z"></path>
+                            </svg> 
+                        Projects</a></li>
+                        <li><a class="hrefNoMargin" href="/"><svg class="SVGNav" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path>
+                        </svg>
+                        Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="last-items">
+                <!-- Menú de idiomas -->
+                <div class="menu-idioma">
+                    <div class="boton" onclick="toggleMenu()">
+                        <img src="https://flagcdn.com/w40/mx.png" alt="Bandera de México"> <span style="font-family: 'DM Sans', sans-serif; letter-spacing: 1px;">ES</span>
+                        <svg viewBox="0 0 1024 1024" class="iconIdiomaDown" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff">
+                            <path d="M903.232 256l56.768 50.432L512 768 64 306.432 120.768 256 512 659.072z" fill="#ffffff"></path>
+                        </svg>
+                    </div>
+                    <div class="dropdown" id="dropdown-menu">
+                        <div class="selectionText">Select a language</div>
+                        <div class="separator"></div>
+                        <a href="/" class="langText toggle-text">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="Bandera de Reino Unido"> English
+                        </a>
+                        <a href="/es.html" class="langText toggle-text">
+                            <img src="https://flagcdn.com/w40/mx.png" alt="Bandera de México"> Español
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Menú de selección de tema -->
+                <div class="menu-tema">
+                    <div class="boton" onclick="toggleThemeMenu()">
+                        <svg id="selectNodeSVG" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon">
+                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                        </svg>
+                    </div>
+                    <div class="dropdown" id="dropdown-theme">
+                        <a onclick="changeTheme('light')">
+                            <svg class="toggle-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun mr-2 h-4 w-4"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+                            <span style="font-weight: 500;">Light</span>
+                        </a>
+                        <a onclick="changeTheme('dark')">
+                            <svg class="toggle-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon">
+                                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                            </svg>
+                            <span style="font-weight: 500;">Dark</span>
+                        </a>
+                        <a onclick="changeTheme('system')">
+                            <svg class="toggle-text" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop mr-2 h-4 w-4"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"></path></svg>
+                            <span style="font-weight: 500;">System</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="allContent">
+            <div class="leftContent">
+                <h1 class="twebPageDevelopmentextToGradientBellow">La neko favorita de Discord</h1>
+                <p class="leftContentInfo">Web developer, UX / UI design and <span class="muchMore">much more...</span></p>
+            </div>
+        <div class="avatar-container">
+            <div class="containerrr">
+                <div class="gradient-blur">
+                    
+                </div>
+                <div class="image-wrapper">
+                    <img alt="Aka's pfp" src="pfp.webp" width="500" height="500"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <section id="services">
+        <div class="services-section">
+            <div class="services-text">
+                <h2 class="myServices">My services</h2>
+            </div>
+            <div class="services-offert">
+                <div class="offert offert1">
+                    <div class="divIcon">
+                        <svg class="size-7" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"></path><path d="M14 4l-4 16"></path></svg>
+                    <span class="offertTitle">Web Designer</span>
+                    </div>
+                    <div class="parahp">
+                        <p>I create engaging digital experiences that stand out for their visual design and impeccable functionality. I work closely with clients and development teams to ensure that each project reflects a clear vision and meets the highest quality standards.</p>
+                        <span class="parahpSpan">
+                            <a href="#projects">
+                                View more
+                            </a></span>
+                    </div>
+                </div>
+
+                <div class="offert offert2">
+                    <div class="divIcon">
+                        <svg width="62" height="62" viewBox="0 0 54 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_912_3)">
+                            <path d="M13.3333 80.0002C20.6933 80.0002 26.6667 74.0268 26.6667 66.6668V53.3335H13.3333C5.97333 53.3335 0 59.3068 0 66.6668C0 74.0268 5.97333 80.0002 13.3333 80.0002Z" fill="#0ACF83"/>
+                            <path d="M0 39.9998C0 32.6398 5.97333 26.6665 13.3333 26.6665H26.6667V53.3332H13.3333C5.97333 53.3332 0 47.3598 0 39.9998Z" fill="#A259FF"/>
+                            <path d="M0 13.3333C0 5.97333 5.97333 0 13.3333 0H26.6667V26.6667H13.3333C5.97333 26.6667 0 20.6933 0 13.3333Z" fill="#F24E1E"/>
+                            <path d="M26.6667 0H40.0001C47.3601 0 53.3334 5.97333 53.3334 13.3333C53.3334 20.6933 47.3601 26.6667 40.0001 26.6667H26.6667V0Z" fill="#FF7262"/>
+                            <path d="M53.3334 39.9998C53.3334 47.3598 47.3601 53.3332 40.0001 53.3332C32.6401 53.3332 26.6667 47.3598 26.6667 39.9998C26.6667 32.6398 32.6401 26.6665 40.0001 26.6665C47.3601 26.6665 53.3334 32.6398 53.3334 39.9998Z" fill="#1ABCFE"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_912_3">
+                            <rect width="53.3333" height="80" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                        <span class="offertTitle">UX/UI Designer</span>
+                    </div>
+                    <div class="parahp">
+                        <p>I design attractive and intuitive interfaces that elevate the user experience, combining functionality and aesthetics. I focus on understanding user needs to create effective and memorable solutions.</p>
+                        <span class="parahpSpan">
+                            <a href="#projects">
+                                View more
+                            </a></span>
+                    </div>
+                </div>
+
+                <div class="offert offert3">
+                    <div class="divIcon">
+                        <img src="/developer.png" alt="Discord Developer" style="width: 62px; height: 62px;">
+                    <span class="offertTitle">Discord Developer</span>
+                    </div>
+                    <div class="parahp">
+                        <p>I develop Discord bots that improve interaction and automation, creating custom solutions that facilitate server management and increase the interactivity of your server.</p>
+                        <span class="parahpSpan">
+                            <a href="#projects">
+                                View more
+                            </a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- <section id="music">
+        <div class="music-container">
+            <div>
+                <div class="leftInfoMusic">
+                    <h2>Reproduce Música mientras Navegas</h2>
+                    <p>Toma el control y reproduce musica mientras vas navegando por el porfolio. Mantente relajado y prepárate. Lo que vas a escuchar es música de calidad. En los controles puedes manipular:</p>
+
+                    <div class="listMusic">
+                        <div class="item">
+                            <div class="circle"></div> <span>Reproductor</span>
+                        </div>
+                        <div class="item">
+                            <div class="circle"></div> <span>Ecualizador</span>
+                        </div>
+                        <div class="item">
+                            <div class="circle"></div> <span>Navegador</span>
+                        </div>
+                        <div class="item">
+                            <div class="circle"></div> <span>Tiempo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reproductor">
+                <div class="top-items">
+                    <img src="/MILOJ.jpg" alt="Reproductor Icon">
+                    <div class="musicTopInfo">
+                        <div class="musicInfo">
+                            <span class="titleAlbum">
+                                Unknown Albúm
+                            </span>
+                            <span class="titleArtist">
+                                Milo J
+                            </span>
+                        </div>
+                        <div class="reproductorItem">
+                            <svg id="svgVOLUME" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-volume2 h-4 w-4 text-muted-foreground"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"></path><path d="M16 9a5 5 0 0 1 0 6"></path><path d="M19.364 18.364a9 9 0 0 0 0-12.728"></path></svg>
+                            <div class="radioContainer">
+                                <input id="progressMusic" type="range" value="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottomItems">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shuffle h-4 w-4"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"></path><path d="m18 2 4 4-4 4"></path><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"></path><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"></path><path d="m18 14 4 4-4 4"></path></svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-skip-back h-4 w-4"><polygon points="19 20 9 12 19 4 19 20"></polygon><line x1="5" x2="5" y1="19" y2="5"></line></svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play h-5 w-5 pl-0.5"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-skip-forward h-4 w-4"><polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" x2="19" y1="5" y2="19"></line></svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-repeat h-4 w-4"><path d="m17 2 4 4-4 4"></path><path d="M3 11v-1a4 4 0 0 1 4-4h14"></path><path d="m7 22-4-4 4-4"></path><path d="M21 13v1a4 4 0 0 1-4 4H3"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('dropdown-menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function toggleThemeMenu() {
+            const themeMenu = document.getElementById('dropdown-theme');
+            themeMenu.style.display = themeMenu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        window.addEventListener('click', function (e) {
+            const idiomaMenu = document.getElementById('dropdown-menu');
+            const idiomaBoton = document.querySelector('.menu-idioma .boton');
+            const themeMenu = document.getElementById('dropdown-theme');
+            const themeBoton = document.querySelector('.menu-tema .boton');
+
+            if (!idiomaBoton.contains(e.target)) idiomaMenu.style.display = 'none';
+            if (!themeBoton.contains(e.target)) themeMenu.style.display = 'none';
+        });
+
+        function changeTheme(theme) {
+            if (theme === 'system') {
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                document.body.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+            } else {
+                document.body.setAttribute('data-theme', theme);
+            }
+            localStorage.setItem('theme', theme);
+            updateTextColor(theme);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme') || 'system';
+            changeTheme(savedTheme);
+        });
+
+        function updateTextColor(theme) {
+        const texts = document.querySelectorAll('.toggle-text'); //
+        texts.forEach(text => {
+        if (theme === 'dark') {
+            text.classList.add('text-blue');  // Color de texto para modo oscuro
+            text.classList.remove('text-blue2');  // Eliminar color de texto para modo claro
+        } else {
+            text.classList.add('text-blue2');  // Color de texto para modo claro
+            text.classList.remove('text-blue');  // Eliminar color de texto para modo oscuro
+        }
+    });
+}
+
+        const nav = document.querySelector("#nav-header");
+        const openButton = document.querySelector("#openMenu");
+        const closeButton = document.querySelector("#closeMenu");
+        const main = document.querySelector("#main");
+
+        openButton.addEventListener("click", () => {
+            nav.classList.add("visible"),
+            nav.classList.add("entrance"),
+            nav.classList.remove("cout"),
+            main.classList.add("fixed");
+        })
+
+        closeButton.addEventListener("click", () => {
+            nav.classList.remove("visible"),
+            nav.classList.remove("entrance"),
+            nav.classList.add("cout"),
+            main.classList.remove("fixed");
+        })
+
+        console.log("Porfolio de aka. Todos los derechos reservados. ig@abreuendry_")
+    </script>
+</body>
+</html>
